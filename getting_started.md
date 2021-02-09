@@ -17,4 +17,4 @@ The installation is really simple:
 4. `sbt assembly`
 5. Add `ocelot-brain-0.6.5.jar` as a library to your project
 
-Further reading: [Understanding main instance and workspaces ->]()
+Further reading: [Understanding main instance and workspaces ->](https://vladg24yt.github.io/Ocelot-Java-Wiki/instance_and_workspaces)
