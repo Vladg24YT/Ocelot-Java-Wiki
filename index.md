@@ -1,4 +1,4 @@
-# Welcome to Ocelot Brain Java wiki
+# Welcome to Ocelot Brain Java wiki!
 
 Here you'll be able to find info on usage of [Ocelot Brain](https://gitlab.com/cc-ru/ocelot/ocelot-brain) Scala library in Java code. 
 One shouldn't consider this to be a step-by-step guide to writing an OpenComputers emulator, because the information provided here describes only interaction with the backend(logic) part of the emulator.
