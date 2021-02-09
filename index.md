@@ -1,10 +1,8 @@
-# Welcome to Ocelot Brain Java wiki!
+# Welcome to Ocelot Brain Java mini-wiki!
 
-Here you'll be able to find info on usage of [Ocelot Brain](https://gitlab.com/cc-ru/ocelot/ocelot-brain) Scala library in Java code. 
+Here you'll be able to find guides on usage of [Ocelot Brain](https://gitlab.com/cc-ru/ocelot/ocelot-brain) Scala library within Java code. 
 One shouldn't consider this to be a step-by-step guide to writing an OpenComputers emulator, because the information provided here describes only interaction with the backend(logic) part of the emulator.
-Also, this wiki is NOT a documentation for Ocelot Brain, it is more of a list of guides on how to use a particular function in Java code.
-
-**Scala code should always be implemented differently from how it is presented in this wiki**
+Also, this wiki is NOT a documentation for Ocelot Brain, because some solutions described here should be used only when coding in Java.
 
 ## Table of Contents:
 1. [Getting started with Ocelot Brain](https://vladg24yt.github.io/Ocelot-Java-Wiki/getting_started)
