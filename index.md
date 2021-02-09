@@ -1,6 +1,3 @@
----
-layout: title
----
 # Welcome to Ocelot Brain Java wiki
 
 Here you'll be able to find info on usage of Ocelot Brain Scala library in Java code. 
