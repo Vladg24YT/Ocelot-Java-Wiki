@@ -26,7 +26,7 @@ ComponentClass component = new ComponentClass(tier);
 caseVariable.add(component);
 ```
 
-Here's a table of supported components, all of them are imported from `totoro.ocelot.brain.entity`:
+Here's a table of supported components, all of them are imported from `totoro.ocelot.brain.entity`:  
 
 | Component class name | Component type | How to create |
 | --- | --- | --- |
@@ -89,7 +89,8 @@ But what if we want to add more customization? Well, Ocelot Brain allows us to d
 
 ## Custom EEPROMs
 
-By default, Ocelot Brain provides the following EEPROMs:
+By default, Ocelot Brain provides the following EEPROMs:  
+
 | EEPROM class name | EEPROM info |
 | --- | --- |
 | AdvLoaderEEPROM | [Advanced Loader](https://oc.cil.li/topic/1707-advancedloader-better-bios/) script by Luca_S |
