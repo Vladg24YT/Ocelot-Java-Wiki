@@ -27,8 +27,9 @@ caseVariable.add(component);
 ```
 
 Here's a table of supported components, all of them are imported from `totoro.ocelot.brain.entity`:
+
 | Component class name | Component type | How to create |
-| -------------------- | -------------- | ------------- |
+| --- | --- | --- |
 | APU | Item | `APU apu = new APU(tier);` |
 | CPU | Item | `CPU cpu = new CPU(tier);`,<br>set tier to `Tier.Four()` for creative CPU |
 | Case | Block | `Case computer = workspace.add(new Case(tier));`,<br>set tier to `Tier.Four()` for creative Case |
@@ -90,7 +91,7 @@ But what if we want to add more customization? Well, Ocelot Brain allows us to d
 
 By default, Ocelot Brain provides the following EEPROMs:
 | EEPROM class name | EEPROM info |
-| ----------------- | ----------- |
+| --- | --- |
 | AdvLoaderEEPROM | [Advanced Loader](https://oc.cil.li/topic/1707-advancedloader-better-bios/) script by Luca_S |
 | CyanBIOSEEPROM | [Cyan BIOS](https://github.com/BrightYC/Cyan) loader by BrightYC |
 | MineOSEFIEEPROM | EFI script, used in [MineOS](https://github.com/IgorTimofeev/MineOS) operating system |
