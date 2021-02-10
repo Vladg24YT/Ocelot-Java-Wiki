@@ -5,15 +5,14 @@ Let's talk a bit about how Ocelot Brain works.
 
 ## Main static instance
 
-Thanks to SBT tool we had used when building Ocelot Brain, Scala code was translated to suit both Scala and Java applications. 
+Thanks to the [SBT](https://www.scala-sbt.org/) tool we had used when building Ocelot Brain, Scala code was translated to suit both Scala and Java applications. 
 One of the key differences we will meet now is that most of the classes became `static`, i.e. their public fields and methods can now be accessed without creating an object of that class.
 One of such classes is `totoro.ocelot.brain.Ocelot`. 
-This class is, technically, responsible for making all the methods in this library useful during runtime. 
-In another words, it is used to start, stop and interact with the Ocelot's emulation. 
+This class is used to start, stop and interact with the Ocelot's emulation. 
 You see, Ocelot Brain works similar to a subapplication, which, by the way, freezes the entire Thread it was launched in. 
 So, if you want to make an emulator with GUI, make sure you think about how you will deal with this 'freezing' first.
 
-Now, moving on to practice-related part. To start the subapplication, invoke the `initialize()` method:
+Now, moving back on to practice-related part. To start the subapplication, invoke the `initialize()` method:
 ```java
 import totoro.ocelot.brain.Ocelot;
 /***/
@@ -58,6 +57,6 @@ Workspace workspace = new Workspace(path);
 ```
 creates a Workspace in a `workspace` directory in the program's folder.
 
-After creating a Workspace, you can add event handlers, computers and their components. The ways of doing so will be described in the next guide.
+After creating a Workspace, you can add event handlers, computers and their components. The ways of doing so will be described in next guides.
 
-Further reading: [Use of components and their configuration ->](https://vladg24yt.github.io/Ocelot-Java-Wiki/component_configuration)
+Further reading: [Use of components and their configuration ->](https://vladg24yt.github.io/Ocelot-Java-Wiki/en/component_configuration)
