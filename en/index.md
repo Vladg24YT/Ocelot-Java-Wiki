@@ -11,7 +11,3 @@ Also, this wiki is NOT a documentation for Ocelot Brain.
 4. [Event handling](https://vladg24yt.github.io/Ocelot-Java-Wiki/en/event_handling)
 5. [Creating and loading emulator snapshots](https://vladg24yt.github.io/Ocelot-Java-Wiki/en/emulator_snapshots)
 6. [Demo example](https://gist.github.com/Vladg24YT/dcbb1ed68658122f21e8edcf32f0db6d)
-
------
-
-*Support Russia - contribute to [Toxic Repos repository](https://toxic-repos.ru/)*
